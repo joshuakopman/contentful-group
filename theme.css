@@ -1,0 +1,29 @@
+#modulesColumnTitle {
+	width: 67px;
+}
+td {
+	width: 60px;
+}
+.expandButton {
+	cursor: pointer;
+}
+.nestedModulesContainerHidden {
+	display: none;	
+}
+
+.nestedModulesContainer h3 {
+	width: 1000px;
+}
+
+.nestedModulesContainer h3 em {
+	color: grey;
+}
+
+.nestedModulesContainer a {
+	min-width: 1500px;
+	text-decoration: underline !important;
+}
+
+.contentType {
+	font-weight: bold;
+}

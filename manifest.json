@@ -1,0 +1,14 @@
+  {
+    "name": "Contentful Pages",
+    "version": "1.0",
+    "description": "Groups modules under Pages in Contentful",
+    "permissions": ["storage"],
+    "content_scripts": [
+    {
+      "matches": ["https://app.contentful.com/*"],
+      "js": ["content_script.js"],
+      "css": ["theme.css"]
+    }
+  	],
+    "manifest_version": 2
+  }
